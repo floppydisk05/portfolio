@@ -1,0 +1,85 @@
+#container {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    text-align: center;
+    color: #ffffff;
+}
+
+a, a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    background-color: #008080;
+    cursor: url('/res/img/cursor/pointer.png'), auto;
+}
+
+* {
+    cursor: url('/res/img/cursor/pointer.png'), auto;
+}
+
+button#social {
+    min-width: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+img#social, a#footerlink, button#social {
+    cursor: url('/res/img/cursor/link.png'), auto;
+}
+
+img#pfp {
+    vertical-align: middle;
+    text-align: center;
+    width: 128px;
+    height: 128px;
+    /* This just looks wrong
+    border-radius: 50%;*/
+}
+
+div#info {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+td#infobox {
+    width: fit-content;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p#title {
+    font-size: 16px;
+    text-shadow: px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
